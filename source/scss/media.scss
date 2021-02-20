@@ -1,0 +1,354 @@
+@media(min-width: 1500px){
+    .mod_mandala{
+        background-position: 0 0;
+    }
+    .process__video iframe{
+        height: 600px;
+    }
+    .form__position{
+        right: 8%;
+        top: 20%;
+    }
+    .shares__container{
+        max-width: 1200px;
+    }
+    .shares__item{
+        transform: translate(-1200px);
+    }
+    .accordeon{
+        max-width: 600px;
+    }
+}
+@media(max-width: 1100px){
+    .mod_mandala{
+        max-width: 450px;
+        background-position: -40px 0;
+    }
+    .form_feed__title p{
+        font-size: 30px;
+    }
+    .form__name_inp input{
+        height: 40px;
+        font-size: 20px;
+    }
+}
+@media(max-width: 978px){
+    .header__nav,
+    .header_tel{
+        display: none;
+    }
+    .header{
+        background-position: 71%;
+    }
+    .floor__item img {
+        max-width: 250px;
+    }
+    .floor__item{
+        margin-right: 12px;
+    }
+    .floor__title{
+        font-size: 16px;
+    }
+    .mod_mandala{
+        max-width: 400px;
+        background-position: -60px 0;
+    }
+    .tabs__ul {
+        flex-wrap: wrap;
+    }
+    .tabs__ul li{
+        margin-bottom: 15px;
+        flex: 1 1 25%;
+    }
+    .tabs__item a{
+        font-size: 18px;
+        padding: 5px 10px;
+    }
+    .form_feed__title p{
+        font-size: 25px;
+    }
+    .form__name_inp input{
+        height: 30px;
+        margin-bottom: 20px;
+    }
+}
+@media(min-width: 978px){
+    .burger{
+        display: none;
+    }
+    .header__nav,
+    .header_tel{
+        display: block;
+    }
+}
+
+@media(max-width: 868px){
+    .additional_wrapper{
+        margin-left: 20px;
+    }
+
+    .burger__menu_item a{
+        font-size: 25px;
+    }
+    .header__sub h2{
+        transition: .1s;
+        transition-delay: 0;
+    }
+    .header__title h2._onload__title{
+        transition-delay: 0;
+    }
+    .brief_item{
+        padding-left: 30px;
+    }
+    .problems__item{
+        font-size: 17px;
+    }
+    .mod_mandala{
+        max-width: 350px;
+        background-position: -100px 0;
+    }
+
+}
+@media(max-width: 779px){
+    .mod_mandala{
+        max-width: 300px;
+        background-position: -140px 0;
+    }
+    .tabs__ul li{
+        margin-bottom: 15px;
+        flex: 0 1 40%;
+    }
+    .price__content_img img{
+        max-width: 100%;
+        width: 100%;
+    }
+    .price__content_img{
+        margin-bottom: 10px;
+    }
+    .form_feed__title p{
+        font-size: 20px;
+    }
+    .form__info{
+        margin-bottom: 10px;
+    }
+    .form__name_inp input{
+        height: 30px;
+        margin-bottom: 20px;
+    }
+    .form_btn{
+        height: 40px;
+    }
+}
+
+@media(max-width: 668px){
+    .burger__menu_item a{
+        font-size: 20px;
+    }
+    .header__title h2{
+        font-size: 30px;
+    }
+    .header__sub{
+        margin-top: 15px;
+    }
+    .header__sub h2{
+        font-size: 12px;
+    }
+    .header__title h2._burger{
+        font-size: 20px;
+    }
+    .header__sub h2._burger-sub{
+        font-size: 12px;
+    }
+    .effects__content{
+        flex-direction: column;
+    }
+    .effects__photo{
+        order: 1;
+    }
+    .effects__info{
+        order: 2;
+        flex: 1 1 auto;
+        margin: 10px 0px 0px 0px;
+    }
+    .floor__item{
+        flex: 1 1 auto;
+    }
+    .effects__photo img{
+        max-width: 600px;
+    }
+    .problems__info{
+        padding: 20px 0px;
+    }
+    .problems__item{
+        font-size: 14px;
+    }
+    .problems__container{
+        flex-direction: column;
+    }
+    .mod_mandala{
+        max-width: 250px;
+        background-position: -190px 0;
+    }
+    .form_wrapper{
+        background: $mainBrawn;
+    }
+    .form_wrapper{
+        padding: 20px 0px;
+    }
+    .form__position{
+        position: static;
+
+    }
+}
+@media(min-width: 580px){
+    .person__brief_mobile{
+        display: none;
+    }
+}
+@media(max-width: 580px){
+    .burger__close{
+        right: 10px;
+        top: 10px;
+    }
+    .line{
+        width: 25px;
+
+    }
+    .burger__menu_item a{
+        font-size: 18px;
+        line-height: 40px;
+    }
+    .header__sub h2._burger-sub{
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .advantage__list-floor{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .floor__item{
+        display: flex;
+        justify-content: center;
+    }
+    .person__block{
+        padding: 0px 20px 0px 0px;
+        flex: 1 1 100%;
+    }
+    .brief_item{
+        padding-left: 10px;
+    }
+    .person__brief_title{
+        margin-bottom: 20px;
+    }
+    .person__brief_title p span{
+       line-height: 20px;
+    }
+    .person__brief_list{
+        margin: 40px 0px 0px 40px;
+    }
+    .person__brief_mobile{
+        display: block;
+        width: 100%;
+    }
+    .person__brief_mobile img{
+        max-width: 100%;
+    }
+    .brief_list{
+        padding: 0px 0px 0px 0px;
+    }
+    .mod_align{
+        transform: translate(0%);
+        padding: 0px 10px;
+    }
+    .mod_flex{
+        display: none;
+    }
+    .mod_align{
+        margin: 0px 0px 0px 0px;
+    }
+    .tabs__item div{
+        font-size: 16px;
+    }
+    .price__value_title{
+        font-size: 14px;
+    }
+    .price__value_sub{
+        font-size: 13px;
+    }
+    .price__height{
+        height: 40px;
+    }
+    .shares__container{
+        flex-direction: column;
+    }
+    .shares__item{
+        margin-right: 0;
+        margin-bottom: 30px;
+        position: relative;
+        align-self: center;
+    }
+    .shares__item {
+        max-width: 80%;
+    }
+    .shares__item:after{
+        content: '';
+        position: absolute;
+        bottom: -15px;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background-color: rgba(0,0,0, .7);
+    }
+}
+@media(max-width: 520px){
+    .effects__photo img{
+        transform: translate(-17%);
+    }
+    .effects__photo img:hover{
+        transform: translate(-22%);
+    }
+    .tabs__item div{
+        font-size: 14px;
+    }
+    .price__content_text{
+        padding: 0px 10px;
+    }
+    .footer__container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__social{
+        margin: 20px 0;
+    }
+
+}
+@media(max-width: 421px){
+    .header__title h2{
+        font-size: 25px;
+        color: #116e8a;
+    }
+
+    .header__sub h2{
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .header__sub h2._burger-sub{
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .effects__title h2{
+        font-size: 30px;
+    }
+    .price__value_price{
+        font-size: 13px;
+    }
+    .tabs__item div{
+        padding: 10px 15px;
+    }
+
+}
+@media(max-width: 321px){
+    .price__value_price{
+        font-size: 11.5px;
+    }
+}

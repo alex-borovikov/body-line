@@ -1,0 +1,26 @@
+.footer {
+    background-color: #093F4F;
+    padding: 50px;
+}
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__logo {
+}
+.header__logo {
+}
+.footer__social {
+    display: flex;
+}
+.footer__social_icon{
+    margin-right: 10px;
+}
+.footer__social_icon a img{
+    max-width: 25px;
+}
+.footer__tel a{
+    color: white;
+    font-size: 20px;
+    font-family: $openSans;
+}

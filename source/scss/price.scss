@@ -1,0 +1,132 @@
+.effects__title {
+}
+.price__container {
+}
+.price__tabs {
+    overflow: hidden;
+}
+.tabs__ul {
+    display: flex;
+    justify-content: center;
+    transform: translate(-100%);
+    transition: .5s;
+}
+.tabs__ul_transform{
+    transform: translate(0)
+}
+.tabs__ul li{
+    margin-right: 10px;
+
+}
+
+.tabs__item div{
+    background-color: $goldColor;
+    padding: 7px 12px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: $mont;
+    letter-spacing: .5px;
+}
+.price__content{
+    position: relative;
+}
+.price__our{
+    display: none;
+    padding: 0px 20px;
+}
+.price__our_active{
+    display: block;
+}
+.price__flex{
+    display: flex;
+    opacity: 1;
+    transition: 3.5s ease-in-out;
+}
+.price__flex-opacity{
+    opacity: 1;
+}
+
+._mod__price{
+    opacity: 1;
+    visibility: visible;
+}
+.price__content {
+    margin-top: 30px;
+}
+.price__content_img img{
+    max-width: 350px;
+}
+.price__content_text {
+    padding: 0px 40px;
+}
+.price__content_title {
+    margin: 10px 0px 20px 0px;
+    text-align: center;
+    font-size: 25px;
+    color: $mainTitle;
+}
+.price__content_sub {
+    font-size: 18px;
+    color: $mainBrawn;
+    font-family: $messiri;
+    line-height: 22px;
+    text-align: justify;
+}
+.price__content_btn{
+    margin-top: 40px;
+    text-align: center;
+}
+.price__content_btn a{
+    font-size: 25px;
+    color: white;
+    background-color: $mainTitle;
+    padding: 7px 30px;
+    transition: .4s;
+    letter-spacing: 1px;
+}
+.price__content_btn a:hover{
+    border: 1px solid $mainTitle;
+    background-color: transparent;
+    color: $mainTitle;
+}
+.price__content_btn a:active{
+    background-color: $mainTitle;
+    color: white;
+}
+
+.price__content_amount {
+    margin-top: 20px;
+    display: flex;
+}
+.price__value{
+    flex-basis: 33.333%;
+    margin-right: 5px;
+}
+.price__value_title{
+    font-family: $openSans;
+    color: $mainTitle;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+    white-space: nowrap;
+}
+.price__value_sub{
+    font-family: $openSans;
+    color: $mainTitle;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0px 0px 10px 0px;
+    text-align: center;
+}
+.price__value_price{
+    color: red;
+    font-family: $openSans;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0px 0px 10px 0px;
+    font-weight: 600;
+    text-align: center;
+}
+

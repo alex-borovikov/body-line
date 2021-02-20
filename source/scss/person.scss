@@ -1,0 +1,94 @@
+.person {
+    position: relative;
+}
+.person__info{
+    display: flex;
+}
+.person:after{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url(../img/person/mandala.svg) 0 0 / cover no-repeat;
+    height: 100%;
+    width: 400px;
+    z-index: -1;
+}
+.effects__title {
+}
+.person__block {
+    flex: 0 1 50%;
+    margin-left: 10px;
+}
+.person__block-img{
+    height: 100%;
+    width: 100%;
+    transition: .7s;
+    transform: translate(150%);
+}
+.mod_mandala{
+    background: url(../img/google/DSC_4639_min.jpg) 30px 0 / cover no-repeat;
+    max-width: 500px;
+}
+.mod_flex{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.mod_flex:hover .person__block-img{
+    transform: scale(1.05) translateY(2.5%);
+}
+
+.mod_align{
+    transform: translate(10%);
+    margin-right: 10px;
+}
+.person__brief_title{
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.brief_title-tr{
+    color: $mainBrawn;
+    font-size: 20px;
+    font-family: $openSans;
+    font-weight: 600;
+    transform: translate(-100%);
+    padding: 0px 10px;
+    transition: .3s;
+}
+.person__brief_title p span{
+    font-size: 16px;
+
+}
+.person__brief_list {
+    transform: translate(-150%);
+    transition: .5s;
+}
+.brief_list {
+    padding-right: 20px;
+}
+.brief_item{
+    color: $mainBrawn;
+    font-size: 20px;
+    font-family: $openSans;
+    line-height: 1.4;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+.brief_item:before{
+    content: '';
+    background: url(../img/person/master.svg) center / cover no-repeat;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    transform: translate(-130%, -20%)
+}
+
+._pers__transform{
+    transform: translate(0%);
+}
+
+
+

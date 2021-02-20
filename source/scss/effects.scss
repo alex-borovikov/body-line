@@ -1,0 +1,157 @@
+.effects{
+    padding: 0 30px;
+}
+.effects__title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.effects__title h2{
+    font-size: 42px;
+    color: $mainTitle;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    line-height: 1.55;
+}
+.effects__content {
+    display: flex;
+}
+.effects__info{
+    flex: 0 1 70%;
+    margin-right: 30px;
+}
+.effects__text{
+    text-align: justify;
+    overflow: hidden;
+}
+.effects__text article{
+    color: $mainBrawn;
+    font-size: 20px;
+    font-family: $openSans;
+    font-weight: 400;
+    line-height: 1.55;
+    margin-bottom: 20px;
+    transform: translateY(70%);
+    transition: .7s;
+    opacity: 0;
+    
+}
+article._transform{
+    transform: translateY(0%);
+    opacity: 1;
+}
+.effects__photo{
+    overflow: hidden;
+    transform: translateY(80%);
+    opacity: 0;
+    transition: .4s;
+}
+.effects__photo._transform{
+    opacity: 1;
+    transform: translateY(0%);
+}
+.effects__photo img{
+    max-width: 400px;
+    transition: .7s;
+}
+.effects__photo img:hover{
+    transform: scale(1.1) translateY(5%);
+}
+
+.massage_advantage{
+    margin-top: 60px;
+
+}
+.advantage__list {
+}
+.advantage__list-floor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.floor__item {
+    flex: 0 1 30%;
+    position: relative;
+    margin: 0px 20px 20px 0px;
+    transition: 1s;
+    opacity: 0;
+}
+
+.mod_opacity{
+    opacity: 1;
+}
+.floor__item img{
+    max-width: 300px;
+}
+.floor__title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    color: $mainBrawn;
+    font-size: 20px;
+    font-family: $openSans;
+    line-height: 1.55;
+}
+
+.problems{
+    margin-top: 60px;
+}
+.problems .effects__title h2{
+    line-height: 1;
+}
+.effects__title {
+}
+.problems__container {
+    display: flex;
+    max-width: 100%;
+    overflow: hidden;
+}
+.problems__video {
+    flex: 0 1 50%;
+    transform: translate(-100%);
+    transition: all .5s cubic-bezier(0, 0.15, 0.88, 1.15);
+}
+.problems__video video{
+    max-width: 100%;
+}
+.problems__video img{
+    max-width: 100%;
+}
+.gif-mobile{
+    display: none;
+}
+._gif-display{
+    display: block;
+}
+.problems__info {
+    flex: 0 1 50%;
+    background: rgb(28,19,17);
+    background: linear-gradient(90deg, rgba(28,19,17,1) 6%, rgba(78,56,52,0.99) 100%);
+    transform: translate(100%);
+    transition: all .5s cubic-bezier(0, 0.15, 0.88, 1.15);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+._problems__transform{
+    transform: translate(0)
+}
+.problems__item {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10px;
+    position: relative;
+    font-family: $mont;
+    letter-spacing: 1.5px;
+}
+.problems__item:before{
+    content: '';
+    background: url(../img/icons/foursquare-check-in.svg) 0 0 /  cover no-repeat;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    transform: translate(-150%, -10%);
+}
+

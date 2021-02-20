@@ -1,0 +1,72 @@
+.form_feed{
+    margin-top: 200px;
+}
+.form_wrapper {
+    padding-bottom: 55.55%;
+    background: url(../img/google/form_min.jpg) center center / cover no-repeat;
+    position: relative;
+    transition: 2s;
+    opacity: 0;
+}
+.form_wrapper__opacity{
+    opacity: 1;
+}
+.form__position{
+    position: absolute;
+    right: 2%;
+    top: 15%;
+}
+.form_feed__title p{
+    color: $goldColor;
+    font-size: 35px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: $openSans;
+}
+.form {
+    text-align: center;
+}
+.form__info {
+    color: #fff;
+    font-size: 21px;
+    font-family: $openSans;
+    margin-bottom: 20px;
+}
+.form__name_inp input{
+    background-color: transparent;
+    border: 1px solid $goldColor;
+    border-radius: 20px;
+    width: 250px;
+    height: 50px;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    padding: 5px 10px;
+}
+.form__name_inp input:focus{
+    color: $mainTitle;
+    background-color: #fff;
+}   
+.form__name_inp input::placeholder{
+    color: $goldColor;
+    opacity: .6;
+}
+.form_btn{
+    width: 250px;
+    height: 50px;
+    color: white;
+    background-color: $mainTitle;
+    font-size: 22px;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    transition: .4s;
+}
+.form_btn:hover{
+    background-color: #fff;
+    color: $mainTitle;
+}
+.form_btn:active{
+    transition: .1s;
+    background-color: rgb(219, 219, 219);
+}

@@ -1,0 +1,21 @@
+.process__video{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.process__video iframe{
+    width: 90%;
+    height: 400px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.iframe{
+    transform: translateY(140%);
+    transition: .5s;
+}
+._process_transform{
+    transform: translate(0%);
+}
